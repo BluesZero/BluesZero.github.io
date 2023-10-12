@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Video Filter</title>
+</head>
+<body>
+    <input type="file" id="videoInput" accept="video/*">
+    <button id="playButton">Play</button>
+    <button id="pauseButton">Pause</button>
+    <label for="pixelSizeRange">Pixel Size:</label>
+    <input type="range" id="pixelSizeRange" min="1" max="20" value="10">
+    <div id="videoContainer">
+        <canvas id="pixelCanvas"></canvas>
+    </div>
+    <script src="pixelart.js"></script>
+</body>
+</html>
